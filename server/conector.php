@@ -1,10 +1,10 @@
 <?php
-	//1. Inicialización de bariables necesarias para la conexion al host 
+	
 	$servidor = "localhost";
 	$usuarioSevidor="root";
 	$passwordServidor= "";
 	
-	$base="agenda_db";/***NO CAMBIAR***/
+	$base="agenda_db";
 	$conexion = new mysqli($servidor, $usuarioSevidor, $passwordServidor);
 
 	if (!$conexion->error){
